@@ -35,6 +35,11 @@ class Program
             Console.WriteLine("      /  |");
             Console.WriteLine("     /   |");
         }
+         else
+            {
+                //New: fun message if they say anything else
+                Console.WriteLine("Aww, maybe next time then!");
+            }
     }
 }
 
