@@ -1,5 +1,5 @@
 ﻿namespace _205_Csharp_twist;
-
+using System;
 class Program
 {
     static void Main(string[] args)
@@ -21,7 +21,7 @@ class Program
         Console.WriteLine($"Speaking of cool, {name}, do YOU wanna see something cool?");
         answer = Console.ReadLine();
 
-        if (answer == "yes")
+        if (answer == "Yes" || answer == "Y")
         {
             Console.WriteLine("      -----");
             Console.WriteLine("     |     |");
@@ -37,3 +37,4 @@ class Program
         }
     }
 }
+
