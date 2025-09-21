@@ -21,7 +21,7 @@ class Program
         Console.WriteLine($"Speaking of cool, {name}, do YOU wanna see something cool?");
         answer = Console.ReadLine();
 
-        if (answer == "Yes" || answer == "Y")
+        if (answer == "Yes" || answer == "Y" || answer == "YES" || answer == "yes")
         {
             Console.WriteLine("      -----");
             Console.WriteLine("     |     |");
@@ -42,4 +42,5 @@ class Program
             }
     }
 }
+
 
